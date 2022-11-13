@@ -22,9 +22,44 @@
     background-color: rgba(255, 255, 255, 0.932);
     box-sizing: border-box;
 }
+@media screen and (max-width: 320px) {
+    .just-flip h2 {
+        font-size: 17px;
+    }
+}
 
 .nav-link {
     margin-left: 890px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-link {
+        margin-left: 660px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-link {
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-link {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-link {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-link {
+        margin-left: 15px;
+    }
 }
 
 .nav-link li {
