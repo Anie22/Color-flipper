@@ -26,6 +26,11 @@
     box-shadow: 0px 3px 10px rgb(150, 150, 173);
     box-sizing: border-box;
 }
+@media screen and (max-width: 320px) {
+    .just-flip h2 {
+        font-size: 17px;
+    }
+}
 
 .nav{
     display: flex;
@@ -89,6 +94,36 @@
 @media screen and (max-width: 900px) {
     .hidden{
         display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-link {
+        margin-left: 660px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-link {
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-link {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-link {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav-link {
+        margin-left: 15px;
     }
 }
 
