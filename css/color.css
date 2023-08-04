@@ -162,7 +162,8 @@
     margin-bottom: 150px;
 }
 
-.content {
+.content,
+.content-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +173,8 @@
 .content h3{
     text-transform: capitalize;
 }
-.content h3>span{
+.content h3>span,
+.content-text h3>span{
     font-size: 50px;
 }
 

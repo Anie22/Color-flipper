@@ -1,6 +1,7 @@
-const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
+const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];
 
 // const btn = document.getElementById('btn');
+let hamTweet = document.getElementById('ham');
 const color = document.querySelector('.color');
 
 hamTweet.addEventListener('click', openHamburger)
@@ -16,7 +17,7 @@ function bgChange() {
     color.textContent = hexColor;
     document.body.style.backgroundColor = hexColor;
 
-    if (randomColor === "#000000"){
+    if (hexColor === "#000000"){
         document.body.style.color = "#ffffff"
     } else {
         document.body.style.color = "#000000"
